@@ -6,339 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikes in India | New Bike Model 2023 | Royal Enfield India</title>
     <link rel="shortcut icon" href="./images/favicon-128x128.png" type="image/x-icon">
-    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha2-dist/css/bootstrap.min.css">
+    <!-- Bootstrap CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-oBqDVmMz9WfA2eI5iF4b5N1pLvX3FsmXPsUsH02hC0l1aG5rY9ZfRci1UiwFfYl6" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./royalenfield.css">
-    <script src="./bootstrap-5.3.0-alpha2-dist/js/bootstrap.bundle.min.js" ></script>
-
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-black">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./images/Screenshot 2023-04-12 082643.jpg"></img></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Motorcycle</a>
-              </li>
-             
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Shop The Look
-                </a>
-                <ul class="dropdown-menu bg-black">
-                  <li><a class="dropdown-item text-white bg-black" href="#">Accessories</a></li>
-                  <li><a class="dropdown-item text-white bg-black" href="#">Apparel</a></li>
-                  
-                  
+            <a class="navbar-brand" href="#">Royal Enfield India</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
                 </ul>
-              </li>
-
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Own A Royal Enfield
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Rental</a></li>
-                  <li><a class="dropdown-item" href="#">Finance</a></li>
-                  <li><a class="dropdown-item" href="#">Book A Test Ride</a></li>
-                  <li><a class="dropdown-item" href="#">Configure Now</a></li>
-                  
-                  
-                  
-                </ul>
-              </li> -->
-
-
-
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Own A Royal Enfield
-                </a>
-                <ul class="dropdown-menu bg-black">
-                  <li><a class="dropdown-item text-white bg-black" href="#">Rental</a></li>
-                  <li><a class="dropdown-item text-white bg-black" href="#">Finance</a></li>
-                  <li><a class="dropdown-item text-white bg-black" href="#">Book A Test Ride</a></li>
-                  <li><a class="dropdown-item text-white bg-black" href="#">Configure Now</a></li>
-                  
-                  
-                </ul>
-              </li>
-
-
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Services</a>
-              </li>
-
-
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Rides</a>
-              </li>
-
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Reach Us
-                </a>
-                <ul class="dropdown-menu bg-black">
-                  <li><a class="dropdown-item text-white bg-black" href="#">Support</a></li>
-                  <li><a class="dropdown-item text-white bg-black" href="#">Locate Us</a></li>
-                  <li><a class="dropdown-item text-white bg-black" href="#">Our World</a></li>
-                </ul>
-              </li>
-
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Login
-                </a>
-                <ul class="dropdown-menu bg-black">
-                  <li><a class="dropdown-item text-white bg-black" href="#">Support</a></li>
-                  <li><a class="dropdown-item text-white bg-black" href="#">Locate Us</a></li>
-                  <li><a class="dropdown-item text-white bg-black" href="#">Our World</a></li>
-                </ul>
-              </li>
-              
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/continental-gt-home2.avif" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/hunter-350-awards3.avif" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/interceptor-home1.avif" class="d-block w-100" alt="...">
-          </div>
-
-          <div class="carousel-item">
-            <img src="./images/motorcycle-of-the-year4.avif" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/service-cost-calculator5.avif" class="d-block w-100" alt="...">
-          </div>
-
-
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Welcome to Royal Enfield India</h1>
+                <p>Explore the latest bike models for 2023. Royal Enfield bikes are known for their style, performance, and legacy.</p>
+                <a href="#" class="btn btn-primary">Explore Models</a>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/royalenfield-bike.jpg" class="img-fluid" alt="Royal Enfield Bike">
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    </div>
 
-      </div>
-      <section id="Cards">
-             <div>
-              <img src="./images/6.avif" alt="">
-              <p>The Hunter 350 is a motorcycle that keeps things simple, fun and engaging....</p>
-             </div>
-             <div>
-              <img src="./images/7.avif" alt="">
-              <p>Democratic like jeans, the Hunter 350 is perfect for those who want an easy......</p>
-             </div>
-             <div>
-              <img src="./images/8.avif" alt="">
-              <p>The Hunter certainly meets the expectations of a modern day Royal Enfield.</p>
-             </div>
-             <div>
-              <img src="./images/9.avif" alt="">
-              <p>Built to be slick and fun around the city, the Hunter 350 is a hoot to ride.</p>
-             </div>
-      </section>
-     
-      <section id="HeaderSection1">
-        <ul>
-          <h3>Motorcycle</h3>
-          <li class="red">Interceptor</li>
-          <li>|</li>
-          <li class="red" onclick="a()">Continental GT</li>
-          <li>|</li>
-          <li class="red" onclick="b()">Super Meteor 650</li>
-          <li>|</li>
-          <li class="red" onclick="c()">Hunter 350</li>
-          <li>|</li>
-          <li class="red" onclick="d()">Scram 411</li>
-          <li>|</li>
-          <li class="red" onclick="e()">Classic</li>
-          <li>|</li>
-          <li class="red" onclick="f()">Meteor 350</li>
-          <li>|</li>
-          <li class="red" onclick="g()">Himalyan</li>
-          <li>|</li>
-          <li class="red" onclick="h()">Bullet</li>
-        </ul>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2023 Royal Enfield India. All rights reserved.</p>
+    </footer>
 
-      </section>
-      <section id="ImageSection1">
-        <img src="./images/10.avif" alt="" id="bike">
-        <!-- <img src="./images/11.avif" alt="" id="bike">
-        <img src="./images/12.avif" alt="" id="bike">
-        <img src="./images/13.avif" alt="" id="bike">
-        <img src="./images/14.avif" alt="" id="bike">
-        <img src="./images/15.avif" alt="" id="bike">
-        <img src="./images/16.avif" alt="" id="bike">
-        <img src="./images/17.avif" alt="" id="bike">
-        <img src="./images/18.avif" alt="" id="bike">  -->
-      </section>
-
-
-      <section id="HeaderSection2">
-        <ul>
-          <h3>Rides</h3>
-          <li class="red1">Royal Enfield Trail School</li>
-          <li>|</li>
-          <li class="red1" onclick="i()">Rider Mania 2022</li>
-          <li>|</li>
-          <li class="red1" onclick="j()">RE:Mapped</li>
-          <li>|</li>
-
-        </ul>
-      </section>
-   
-    <section id="ImageSection2">
-      <img src="./images/20.avif" alt="" id="bike1">
-      <!-- <img src="./images/21.avif" alt="" id="bike">
-      <img src="./images/22.avif" alt="" id="bike"> -->
-    </section>
-
-    <section id="HeaderSection3">
-      <ul>
-        <h3>Apparel</h3>
-        <li class="red2">Art of Motorcycling</li>
-        <li>|</li>
-        <li class="red2" onclick="k()">Super Meteor 650</li>
-        <li>|</li>
-        <li class="red2" onclick="l()">The Classic Collectible</li>
-        <li>|</li>
-        <li class="red2" onclick="m()">Royal Enfield X Alphnister</li>
-        <li>|</li>
-        <li class="red2" onclick="n()">Scram 411 collections</li>
-        <li>|</li>
-        <li class="red2" onclick="o()">Royal Enfield X TCX</li>
-        <li>|</li>
-        <li class="red2" onclick="p()">MIY Riding Jacket</li>
-      
-
-    </section>
-
-
-    <section id="ImageSection3">
-      <img src="./images/23.avif" alt="" id="bike2">
-      <!-- <img src="./images/24.avif" alt="" id="bike2">
-      <img src="./images/25.avif" alt="" id="bike2">
-      <img src="./images/26.avif" alt="" id="bike2">
-      <img src="./images/27.avif" alt="" id="bike2">
-      <img src="./images/28.avif" alt="" id="bike2">
-      <img src="./images/29.avif" alt="" id="bike2">
-      
-       -->  
-    </section>
-
-    <section id="slideSection" style="display: flex;">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="width:25%;">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/30.avif" class="d-block w-100" alt="..." style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/31.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/32.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item active">
-            <img src="./images/33.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-        </div>
-      </div>
-
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="width:25%;">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/34.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/35.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/36.jpg" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item active">
-            <img src="./images/37.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-        </div>
-      </div>
-
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="width:25%;">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/38.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/39.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/40.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item active">
-            <img src="./images/41.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-        </div>
-      </div>
-
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="width:25%;">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/42.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/43.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/44.avif" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-          <div class="carousel-item active">
-            <img src="./images/45.webp" class="d-block w-100" alt="..."  style="width:100%; height:400px;">
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-    </section>
-
-
-
-  
-      
-
-
-  
-
-
-  
-
-  <script src="./royalenfield.js"></script>
+    <!-- Bootstrap JS from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qL6B2aw0HfFhyFZ6B6BgtBK6GZbQtJbXo6r5kDiDb7tmDQCUt78hu96LMwHHTyZ2" crossorigin="anonymous"></script>
 </body>
 </html>
