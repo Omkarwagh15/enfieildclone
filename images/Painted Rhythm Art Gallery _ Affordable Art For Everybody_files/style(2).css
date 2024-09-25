@@ -1,0 +1,221 @@
+.gmwqp_inquirybtn{
+		margin-top: 10px;
+        display: inline-block;
+        width: 100%;
+}
+.gmwqp_popup_op{
+	/*display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 9999999;*/
+   /* background-color: #fff;
+    border-radius: 10px 10px 10px 10px;*/
+    box-shadow: 0 0 25px 5px #999;
+    color: #111;
+    display: none;
+    min-width: 450px;
+    margin-top: 30px;
+    /*padding: 25px;*/
+}
+li.gmwqp_left {
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+    margin-top: 5px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+li.gmwqp_right {
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+    margin-top: 5px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+li.gmwqp_full {
+    width: 100%;
+    float: right;
+    margin-top: 5px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.gmwqpmsgc{
+    margin-top: 5px !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+}
+.gmwqpmsgc li{
+	padding: 0 !Important;
+    margin: 0 !Important;
+    color: red;
+    font-size: 15px;
+    line-height: 18px;
+}
+.gmwqpmsgc.gmwsuc li{
+    color: green;
+}
+.gmwqp_inner_popup_op h3{
+	text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 8px 0;
+    background-color: #dcdcdc;
+}
+label.gmqqp_label {
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    display: inline-block;
+    width: 100%;
+}
+label.gmqqp_label span{
+	color: red;
+}
+.gmqqp_submit {
+	width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px 0;
+    float: left;
+    text-align: center;
+    /*background-color: #dcdcdc;*/
+}
+form#gmwqp_popup_op_form {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+}
+.gmwqp_beforeformcontent , .gmwqp_afterformcontent{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.gmqqp_input {
+    padding: 5px !Important;
+    line-height: 20px !Important;
+    border: 1px solid #000 !Important;
+    height: 33px !Important;
+    border-radius: 2px !Important;
+    display: inline-block !Important;
+    float: left !Important;
+    width: 100% !Important;
+
+}
+textarea.gmqqp_input{
+	height:80px !important;
+}
+.gmqqp_captchadiv label{
+    float: left !Important;
+}
+.gmqqp_captchadiv .gmqqp_input{
+    width: 80px !Important;
+    float: left !Important;
+    margin-left: 5px;
+}
+.gmwqp_inner_popup_op h4 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-weight: normal;
+}
+.gmwqp_inner_popup_op {
+        
+  
+    max-width: 500px;
+    margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+   
+    padding: 0;
+    border-radius:0px;
+    /*margin-top: 10%;*/
+    position: relative;
+}
+.gmwqp_inner_popup_op_mores {
+	 background-color: #fff;
+	 display: inline-block;
+	 width: 100%;
+}
+.gmwqp_popup_op.gmwqp_active{
+	/*display: block;*/
+}
+.gmwqp_close img{
+	width: 30px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+.gmwqp_popupcontant > ul{
+	    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}
+.gmwqp_inner_field label{
+    display: inline-block;
+}
+.gmqqp_submit_btn{
+	padding: 10px 15px;
+    border-radius: 3px;
+    /*float: right;
+    margin-right: 10px;*/
+}
+.gmwqp_popupcontant {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    padding: 0px 10px;
+    /*max-height: 285px;
+    overflow: auto;*/
+}
+.gmwqp_inquirybtn_loop .gmwqp_inq{
+    margin-top: 0 !Important;
+}
+.gmwqp_inquirytmltbtn_loop .gmwqp_inq_addtocart{
+    margin-top: 0 !Important;
+}
+
+.gmwqp_inquirybtn_loop{
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.gmwqp_inquirytmltbtn_loop{
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.viewcaren{
+    margin-left: 10px !important;
+}
+.gmwqp_loader .gmwqp_inner_popup_op_mores{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.gmwqp_form_dls .gmwqp_popupcontant{
+       max-height: inherit;
+}
+@media only screen and (max-width: 600px) {
+	.gmwqp_inner_popup_op{
+               max-width: 90%;
+	  /*margin-right: 15px;
+	  margin-left: 15px;*/
+    box-shadow: 0 0 25px 5px #999;
+	}
+    .gmwqp_popup_op{
+        min-width:auto;
+        box-shadow: none;
+    }
+}

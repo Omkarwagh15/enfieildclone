@@ -1,0 +1,31 @@
+#Cards{
+    display: flex;
+}
+#Cards div{
+    width: 25%;
+    overflow: hidden;
+    height: 360px;
+}
+#Cards div img{
+    width: 100%;
+}
+#Cards div ul{
+    display:flex;
+    list-style-type: none;
+    gap:20px;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#Cards div {
+    position: relative;
+    bottom: 65px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-weight: 700;
+}
+#Cards div img:hover{
+    transform:scale(1.2);
+    transition: 1.5s;
+}

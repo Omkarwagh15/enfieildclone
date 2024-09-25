@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="./signup.css">
+    <script src="./signup.js"></script>
+</head>
+<body>
+    <form action="../RoyalEnfield/royalenfield.html" onsubmit="return log()">
+        <div id="fm">
+            <h1>SignUp Form</h1>
+        <label for="">First Name</label><br>
+        <input type="text" placeholder="Enter First Name" id="userF"><br><br>
+        <span id="erFN"></span><br>
+
+        <label for="">Last Name</label><br>
+        <input type="text" placeholder="Enter Last Name" id="userL"><br><br>
+        <span id="erLN"></span><br>
+
+        <label for="">Mobile Number</label><br>
+        <input type="text" placeholder="10 digit Number" id="Mob"><br><br>
+        <span id="erMN"></span><br>
+
+        <label for="">Mail ID</label><br>
+        <input type="email" placeholder="Enter Email" id="Eml"><br><br>
+        <span id="erMail"></span><br>
+
+        <label for="">Password</label><br>
+        <input type="password" placeholder="Create Password" id="pass"><br><br>
+        <span id="erPa"></span><br>
+
+        <label for="">Confirm Password</label><br>
+        <input type="password" placeholder="Confirm Password" id="ConPa"><br><br>
+        <span id="erCN"></span><br>
+
+        <button onclick="return log()">Sign In </button><br><br>
+        <span id="erSI" ></span><br>
+        </div>
+    </form>
+</body>
+</html>
+

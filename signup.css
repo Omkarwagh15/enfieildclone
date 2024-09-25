@@ -1,0 +1,21 @@
+#fm{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(150, 165, 141);
+}
+h1{
+    background-color:black;
+    color: wheat;
+}
+span{
+    color: white;
+}
+body{
+    background-color: rgb(231, 212, 212);
+    background-image: url(../RoyalEnfield/images/pexels-photo-1413412.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

@@ -1,0 +1,19 @@
+.bwp-content-lookbook{
+	display : inline-block;
+	position : relative;
+}
+.item-lookbook{
+	position : absolute;
+}
+.item-lookbook .fa{
+	font-size : 22px;
+}
+.content-lookbook{
+	width : 180px;
+	background : #fff;
+	display : none;
+	position : absolute;
+}
+.item-lookbook:hover .content-lookbook{
+	display : block;
+}

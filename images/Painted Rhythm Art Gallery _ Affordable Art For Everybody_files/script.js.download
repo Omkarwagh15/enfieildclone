@@ -1,0 +1,93 @@
+jQuery( document ).ready(function() {
+				jQuery( ".gmwqp_inq" ).click(function( event ) {
+					var product_enquiry_title = jQuery(this).attr("title");
+					jQuery(".product_enquiry_title").html(product_enquiry_title);
+					jQuery(".gmqqp_product_vl").val(product_enquiry_title);
+					jQuery(".gmwqp_popup_op").bPopup({
+			            positionStyle : 'absolute',
+			           
+			        });
+			            
+					//jQuery(".gmwqp_popup_op").addClass("gmwqp_active");
+					return false;
+				});
+				jQuery( ".gmwqp_inq_pp" ).click(function( event ) {
+					jQuery(".gmqqp_product_vl").val("gmqqp_enquiry_cart");
+					jQuery(".gmwqp_popup_op").bPopup({
+			            positionStyle : 'absolute',
+			           
+			        });
+					//jQuery(".gmwqp_popup_op").addClass("gmwqp_active");
+					return false;
+				});
+				/*jQuery( ".gmwqp_close" ).click(function( event ) {
+					jQuery(".gmwqp_popup_op").removeClass("gmwqp_active");
+					jQuery(".gmwqp_popup_op").close();
+					return false;
+				});*/
+				jQuery( ".gmwqp_remove_op" ).click(function( event ) {
+			    	
+			    	var culms = jQuery(this);
+			    	jQuery.ajax({
+							    type: "post",
+							    dataType: "json",
+							    url: gmwqp_ajax_object.ajax_url,
+							    data: {'action':'gmqqp_remove_cart','product_id':culms.attr('product_id')},
+							    success: function(response){
+							        culms.closest(".gmwqp_cart_item").remove();
+							        
+							    }
+							});
+					return false;
+			    });
+
+				jQuery( ".gmwqp_inq_addtocart" ).click(function( event ) {
+			    	
+			    	var culms = jQuery(this);
+			    	culms.html('ADDING...');
+			    	jQuery.ajax({
+							    type: "post",
+							    dataType: "json",
+							    url: gmwqp_ajax_object.ajax_url,
+							    data: {'action':'gmqqp_add_tocart_enquiry','add_id':culms.attr('add_id')},
+							    success: function(response){
+							        culms.html('ADDED TO ENQUIRY CART');
+							        culms.after(response.returnhtml);
+							    }
+							});
+					return false;
+			    });
+			    jQuery( ".gmwqp_popup_op_form" ).submit(function( event ) {
+			    	jQuery('body').addClass('gmwqp_loader');
+			    	jQuery(".gmwqpmsgc").remove();
+			    	var culms = jQuery(this);
+			    	jQuery.ajax({
+							    type: "post",
+							    dataType: "json",
+							    url: gmwqp_ajax_object.ajax_url,
+							    data: jQuery(this).serialize(),
+							    success: function(response){
+							        if(response.msg=='error'){
+							        	jQuery(".gmwqp_popupcontant").append(response.returnhtml);
+							        }else{
+							        	culms[0].reset();
+							        	jQuery(".gmwqp_popupcontant").append(response.returnhtml);
+							        }
+							        if(response.redirect=='yes'){
+							        	setTimeout(function(){ 
+							        		window.location.replace(response.redirect_to);
+							        	}, 1500);
+							        }
+							        jQuery('body').removeClass('gmwqp_loader');
+							        scrollSmoothToBottom('gmwqp_popupcontant');
+							    }
+							});
+					return false;
+			    });
+			    function scrollSmoothToBottom (id) {
+				   var div = document.getElementById(id);
+				   jQuery('#' + id).animate({
+				      scrollTop: div.scrollHeight - div.clientHeight
+				   }, 500);
+				}
+			});

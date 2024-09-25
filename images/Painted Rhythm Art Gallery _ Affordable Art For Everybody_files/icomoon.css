@@ -1,0 +1,122 @@
+@font-face{
+  font-family:icomoon;
+  src:url(../fonts/icomoon.eot?fzv6fp);
+  src:url(../fonts/icomoon.eot?fzv6fp#iefix) format("embedded-opentype"),url(../fonts/icomoon.ttf?fzv6fp) format("truetype"),url(../fonts/icomoon.woff?fzv6fp) format("woff"),url(../fonts/icomoon.svg?fzv6fp#icomoon) format("svg");
+  font-weight:400;
+  font-style:normal;
+  font-display:block;
+}
+
+[class*=" icon-"],[class^=icon-]{
+  font-family:icomoon;
+  speak:none;
+  font-style:normal;
+  font-weight:400;
+  font-variant:normal;
+  text-transform:none;
+  line-height:1;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+
+.icon-arrow:before{
+  content:"\e92b";
+}
+.icon-delivery-truck:before{
+  content:"\e92a";
+}
+.icon-lamp:before{
+  content:"\e91d";
+}
+.icon-table:before{
+  content:"\e91e";
+}
+.icon-sofa:before{
+  content:"\e917";
+}
+.icon-living-room:before{
+  content:"\e918";
+}
+.icon-furniture:before{
+  content:"\e919";
+}
+.icon-dining-room:before{
+  content:"\e91a";
+}
+.icon-dining-chair:before{
+  content:"\e91b";
+}
+.icon-decor:before{
+  content:"\e91c";
+}
+.icon-truck:before{
+  content:"\e916";
+}
+.icon-inclined-slice-of-lemon:before{
+  content:"\e912";
+}
+.icon-peanut:before{
+  content:"\e913";
+}
+.icon-strawberry:before{
+  content:"\e914";
+}
+.icon-salad:before{
+  content:"\e915";
+}
+.icon-quote:before{
+  content:"\e911";
+}
+.icon-fire:before{
+  content:"\e910";
+}
+.icon-telephone1:before{
+  content:"\e90f";
+}
+.icon-instagram:before{
+  content:"\e90e";
+}
+.icon-next:before{
+  content:"\e90d";
+}
+.icon-mail1:before{
+  content:"\e90c";
+}
+.icon-headset:before{
+  content:"\e90b";
+}
+.icon-sale:before{
+  content:"\e90a";
+}
+.icon-newsletter:before{
+  content:"\e909";
+}
+.icon-chat:before{
+  content:"\e908";
+}
+.icon-search:before{
+  content:"\e907";
+}
+.icon-bag:before{
+  content:"\e900";
+}
+.icon-heart:before{
+  content:"\e901";
+}
+.icon-logout:before{
+  content:"\e902";
+}
+.icon-login:before{
+  content:"\e903";
+}
+.icon-mail:before{
+  content:"\e904";
+}
+.icon-random:before{
+  content:"\e905";
+}
+.icon-telephone:before{
+  content:"\e906";
+}
+

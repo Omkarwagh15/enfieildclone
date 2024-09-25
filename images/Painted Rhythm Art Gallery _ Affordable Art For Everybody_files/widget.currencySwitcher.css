@@ -1,0 +1,24 @@
+.wcuCurrencySwitcherWidgetShowAsFlag {
+	display:inline-block;
+	position:relative;
+	cursor:pointer;
+	opacity:.8;
+	width:32px;
+	height:auto;
+}
+.wcuCurrencySwitcherWidgetShowAsFlag.wcuCurrent   {
+	opacity:1;
+}
+.wcuCurrencySwitcherWidgetShowAsFlag:hover {
+	opacity:1;
+}
+.wcuFlagsSelectBoxDropdownWrapper li:before {
+	display:none !important;
+}
+.wcuFlagsSelectBoxDropdownWrapper img.fnone  {
+	width:auto;
+	height:auto;
+}
+.wcuCurrencySwitcherWidget select {
+	width:100%;
+}
