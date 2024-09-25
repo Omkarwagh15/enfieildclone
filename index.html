@@ -7,7 +7,7 @@
     <title>Bikes in India | New Bike Model 2023 | Royal Enfield India</title>
     <link rel="shortcut icon" href="./images/favicon-128x128.png" type="image/x-icon">
     <!-- Bootstrap CSS from CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-oBqDVmMz9WfA2eI5iF4b5N1pLvX3FsmXPsUsH02hC0l1aG5rY9ZfRci1UiwFfYl6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-oBqDVmMz9WfA2eI5I4b5N1pLvX3FsmXPsUsH02hC0l1aG5rY9ZfRci1UiwFfYl6" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./royalenfield.css">
 </head>
@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Models</a>
+                        <a class="nav-link" href="#models">Models</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -39,9 +39,9 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-6">
-                <h1>Welcome to Royal Enfield India</h1>
+                <h1 id="home">Welcome to Royal Enfield India</h1>
                 <p>Explore the latest bike models for 2023. Royal Enfield bikes are known for their style, performance, and legacy.</p>
-                <a href="#" class="btn btn-primary">Explore Models</a>
+                <a href="#models" class="btn btn-primary">Explore Models</a>
             </div>
             <div class="col-md-6">
                 <img src="./images/royalenfield-bike.jpg" class="img-fluid" alt="Royal Enfield Bike">
@@ -49,9 +49,53 @@
         </div>
     </div>
 
+    <!-- Models Section -->
+    <div class="container mt-5" id="models">
+        <h2>Our Latest Models</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/bike1.jpg" class="card-img-top" alt="Model 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Royal Enfield Classic 350</h5>
+                        <p class="card-text">A retro-modern motorcycle with classic styling and performance.</p>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/bike2.jpg" class="card-img-top" alt="Model 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Royal Enfield Meteor 350</h5>
+                        <p class="card-text">A cruiser designed for comfort on long rides.</p>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/bike3.jpg" class="card-img-top" alt="Model 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Royal Enfield Himalayan</h5>
+                        <p class="card-text">A bike built for adventure and off-road experiences.</p>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container mt-5" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to contact us!</p>
+        <a href="mailto:support@royalenfield.com" class="btn btn-success">Email Us</a>
+    </div>
+
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3 mt-4">
-        <p>&copy; 2023 Royal Enfield India. All rights reserved.</p>
+        <p>&copy; 2025 Royal Enfield India. All rights reserved.</p>
     </footer>
 
     <!-- Bootstrap JS from CDN -->
